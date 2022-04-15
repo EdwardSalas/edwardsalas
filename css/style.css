@@ -87,7 +87,7 @@ section {
 }
 
 .btn:hover i {
-  margin-left: 10rem;
+  margin-left: 2rem;
 }
 
 .navbar {
@@ -143,47 +143,7 @@ section {
   gap: 4rem;
   min-height: calc(100vh - 6.5rem);
 }
-.index .box-container
-{
-  margin-top: 2rem;
-}
-.index .box-container .box i {
-  font-size: 2rem;
-  color: crimson;
-}
-.index  .box-container .box h3{
-  font-size: 2rem;
-  color: #fff;
-}
-.index .content .box-container .box span{
-  font-size: 1.5rem;
-  color: white;
-  text-transform:lowercase;
-  
-}
-.hover-underline-animation {
-  display: inline-block;
-  position: relative;
-  color: #0087ca;
-}
 
-.hover-underline-animation:after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: crimson;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-}
-
-.hover-underline-animation:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
 .index .image {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 42rem;
@@ -214,7 +174,7 @@ section {
 }
 .index .content span {
   font-size: 3rem;
-  color: #dc143c;
+  color: crimson;
 }
 
 .index .content p {
@@ -488,8 +448,8 @@ section {
 .blogs .box-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(50rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
+  -ms-grid-columns: (minmax(31rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
   gap: 1.5rem;
 }
 
@@ -601,7 +561,6 @@ section {
   gap: 2rem;
   padding: 1rem 0;
 }
-
 
 .contact .row .info-container .box-container .box i {
   font-size: 3rem;
